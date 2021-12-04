@@ -36,7 +36,7 @@ event:
   location:    "Palo Alto, CA, United States"
 
   trust_badge:
-    year:   "2021"  # season year
+    year:   "2020"  # season year
     region: "na"    # "na" or "eu"
     color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
