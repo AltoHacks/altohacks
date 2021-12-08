@@ -32,8 +32,8 @@ seo:
 event:
   name:        "AltoHacks"
   description: "description"
-  date:        "5 & 6 February 2022"
-  location:    "Palo Alto, CA, United States"
+  date:        "<Create date>"
+  location:    "<Online, add zoom later>"
 
   trust_badge:
     year:   "2020"  # season year
@@ -47,7 +47,7 @@ event:
           client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
           redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
       - text: "Sponsor"
-        href: "mailto:sponsorship@website.com"
+        href: "mailto:altohackinfo@gmail.com"
 
   about:
     description: >
