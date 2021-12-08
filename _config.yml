@@ -31,7 +31,7 @@ seo:
 # Event information.
 event:
   name:        "AltoHacks"
-  description: "ASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAYASHRAY."
+  description: "description"
   date:        "5 & 6 February 2022"
   location:    "Palo Alto, CA, United States"
 
@@ -51,7 +51,7 @@ event:
 
   about:
     description: >
-      Example Hacks is a hackathon hosted at The University of Example.
+      Example Hacks is a hackathon hosted at <online>.
       This is your opportunity to describe your event, what to expect, where it is & anything unique to your event.
       Keep it straightforward, don't make it too long.
 
