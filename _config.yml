@@ -47,7 +47,7 @@ event:
           client_id:    "OQLIH21AlhceWCqeSErY0cCpXqEMlqH2XyX1j5co9oo"
           redirect_uri: "https://shdfe.github.io/mlh-hackathon-boilerplate/"
       - text: "Sponsor Us"
-        href: "/sponsor.html"
+        href: "sponsor"
 
   about:
     description: >
