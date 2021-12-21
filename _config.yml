@@ -24,7 +24,7 @@ social:
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "AltoHacks | 5/6 February 2022"
+  title:       "AltoHacks | April 23-24, 2022"
   description: "Official website for AltoHacks."
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
@@ -32,11 +32,11 @@ seo:
 event:
   name:        "AltoHacks"
   description: "description"
-  date:        "<Create date>"
-  location:    "<Online, add zoom later>"
+  date:        "April 23-24, 2022"
+  location:    "Virtual"
 
   trust_badge:
-    year:   "2020"  # season year
+    year:   "2022"  # season year
     region: "na"    # "na" or "eu"
     color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
@@ -46,12 +46,12 @@ event:
         my_mlh:
           client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
           redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
-      - text: "Sponsor"
-        href: "mailto:altohackinfo@gmail.com"
+      - text: "Sponsor Us"
+        href: "/sponsor.html"
 
   about:
     description: >
-      Example Hacks is a hackathon hosted at <online>.
+      AltoHacks is a hackathon hosted virtually
       This is your opportunity to describe your event, what to expect, where it is & anything unique to your event.
       Keep it straightforward, don't make it too long.
 
@@ -86,7 +86,7 @@ event:
         have graduated within the past 12 months are eligible to attend.
     - question: "Where is the event?"
       answer: >
-        The event is being hosted at [insert venue location here].
+        The event is being hosted virtually on Zoom.
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
