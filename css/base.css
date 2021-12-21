@@ -1,0 +1,12 @@
+.homebutton {
+    margin-top:24px;
+    margin-left:24px;
+}
+
+.darklink {
+    color: black;
+}
+
+.bg_gradient {
+    background-image: linear-gradient(#F5699C,white, white, white, white);
+}
