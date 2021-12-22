@@ -8,5 +8,23 @@
 }
 
 .bg_gradient {
-    background-image: linear-gradient(#2D882D,white, white, white, white);
+    background-image: linear-gradient(#88CC88,
+    #55AA55,
+    #2D882D,
+    #116611,
+    #004400
+    );
 }
+
+.white {
+    color:#ffffff;
+}
+
+.darkgreen_btn {
+    background-color:#004400;
+}
+
+.lightgreen:hover {
+    color: #ffffff;
+}
+
