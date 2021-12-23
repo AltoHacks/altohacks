@@ -99,11 +99,10 @@ section {
 .hero .buttons a {
   background: #fff;
   /*border: 10px solid #0F2C34;*/
-  border: 10px solid #55AA55;
-
+  border: 10px solid #88CC88;
   border-radius: 40px;
   /*color: #0F2C34;*/
-  color: #55AA55;
+  color: #88CC88;
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
@@ -115,7 +114,8 @@ section {
 
 .hero .buttons a:hover,
 .hero .buttons a:focus {
-  background-color: #0F2C34;
+  /*background-color: #0F2C34;*/
+  background-color: #004400;
   color: #fff;
   transition: all 0.2s ease;
 }

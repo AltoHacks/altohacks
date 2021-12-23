@@ -19,4 +19,12 @@
 .white {
     color:#ffffff;
 }
+a {
+    color:#55AA55
+}
+
+a:hover {
+    color: #55AA55;
+    text-decoration: underline;
+}
 
