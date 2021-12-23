@@ -1,8 +1,10 @@
 <head>
+  
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.event.name }}{% endif %}</title>
+  <!-- <title>{% if page.title %}{{ page.title }}{% else %}{{ site.event.name }}{% endif %}</title> -->
+  <title> {{site.event.name}} | {{page.title}}</title>
 
   <meta name="viewport"    content="width=device-width, initial-scale=1">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.seo.description }}{% endif %}">
@@ -35,13 +37,12 @@
   <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon"      href="{{ '/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="apple-touch-icon" sizes="57x57"  href="{{ '/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="apple-touch-icon" sizes="114x114"  href="{{ '/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="apple-touch-icon" sizes="72x72"  href="{{ '/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="apple-touch-icon" sizes="144x144"  href="{{ '/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="apple-touch-icon" sizes="60x60"  href="{{ '/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="apple-touch-icon" sizes="120x120"  href="{{ '/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="apple-touch-icon" sizes="76x76"  href="{{ '/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="apple-touch-icon" sizes="152x152"  href="{{ '/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="apple-touch-icon" sizes="114x114"  href="{{ '/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="apple-touch-icon" sizes="72x72"  href="{{ '/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="apple-touch-icon" sizes="144x144"  href="{{ '/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="apple-touch-icon" sizes="60x60"  href="{{ '/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}"> 
+  <link rel="apple-touch-icon" sizes="120x120"  href="{{ '/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="apple-touch-icon" sizes="76x76"  href="{{ '/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="apple-touch-icon" sizes="152x152"  href="{{ '/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}">
 
-  
 </head>
