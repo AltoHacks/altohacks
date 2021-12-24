@@ -42,7 +42,7 @@ event:
 
   hero:
     links:
-      - text: "Apply"
+      - text: "Register"
         my_mlh:
           client_id:    "OQLIH21AlhceWCqeSErY0cCpXqEMlqH2XyX1j5co9oo"
           redirect_uri: "https://altohacks.github.io/altohacks/"
