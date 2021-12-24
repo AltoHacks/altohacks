@@ -35,22 +35,40 @@
 */
 
   .top_banner h1 {
-    color: #ffffff
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin-top: 5px;
   }
 
   .top_banner h4 {
-    color: #ffffff
+    color: #ffffff;
+    font-size: 20px;
   }
 
   .top_banner a {
     color: #55AA55;
   }
 
-nav {
-    font-size: 17px !important;
-    background-color: #ffffff !important
-}
 
-.nav_img_pad {
+/* 
+*  Additional Navbar CSS
+*/
+
+  nav {
+    font-size: 17px !important;
+    background-color: #ffffff !important;
+  }
+
+  .nav_logo_pad {
     padding-top:1px !important
-}
+  }
+
+  .nav_text_pad {
+    padding-left:10px !important;
+  }
+
+  .nav_text_color {
+    color: #004400 !important;
+  }

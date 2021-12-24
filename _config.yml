@@ -31,7 +31,6 @@ seo:
 # Event information.
 event:
   name:        "AltoHacks"
-  description: "description"
   date:        "April 23-24, 2022"
   location:    "Virtual"
 
@@ -50,6 +49,7 @@ event:
         href: "sponsor"
 
   about:
+    title: ABOUT
     description: >
       AltoHacks is a hackathon hosted virtually.
       This is your opportunity to describe your event, what to expect, where it is & anything unique to your event.
@@ -59,15 +59,15 @@ event:
   info:
     sections:
       - image: "images/image1.png"
-        title: "LEARN."
+        title: "LEARN"
         description: >
           We can write something nice with a graphic (as above) to make the event more appealing.
       - image: "images/image2.png"
-        title: "BUILD."
+        title: "BUILD"
         description: >
           We can write something nice with a graphic (as above) to make the event more appealing.
       - image: "images/image3.png"
-        title: "SHARE."
+        title: "SHARE"
         description: >
           We can write something nice with a graphic (as above) to make the event more appealing.
 
@@ -99,6 +99,30 @@ event:
   register:
     message: >
       You'll receive more information closer to the hackathon.
+
+# Info for banners at top of the pages
+banner:
+  sponsor:
+    title: "Sponsor Us"
+    description: "Please contact us at [altohacksinfo@gmail.com](mailto:altohacksinfo@gmail.com) if you are interested in sponsoring AltoHacks 2022!"
+
+# Nav info
+nav: 
+  - text: "Home"
+    link: index.html
+  - text: "Register"
+    link: https://my.mlh.io/oauth/authorize?client_id=OQLIH21AlhceWCqeSErY0cCpXqEMlqH2XyX1j5co9oo&redirect_uri=https://altohacks.github.io/altohacks/&response_type=token
+  - text: "Sponsor Us"
+    link: sponsor.html
+
+#Footer info
+footer:
+  title: AltoHacks
+  email: 
+    text: altohacksinfo@gmail.com
+    link: mailto:altohacksinfo@gmail.com
+  copyright: "&copy; 2021 AltoHacks"
+  template: Template by [Niko Lazaris](https://github.com/nlaz)
 
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --

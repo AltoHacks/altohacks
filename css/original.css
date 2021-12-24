@@ -10,6 +10,26 @@
   font-weight: 600;
 }
 
+html {
+  --scrollbarBG: #004400;
+  --thumbBG: #ffffff;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
 body {
   background-color:#004400;
 }
@@ -54,7 +74,7 @@ section {
 }
 
 .hero .wrapper {
-  padding-top: 30vh;
+  padding-top: 25vh;
 }
 
 .hero .wrapper h1 {
@@ -74,7 +94,7 @@ section {
 
 .hero .wrapper h3 {
   font-size: 30px;
-  font-weight: 200;
+  font-weight: 400;
   padding-bottom: 35px;
   color: #ffffff
 }
@@ -115,14 +135,14 @@ section {
 .about {
   border-width: 15px 0;
   background-color: #fff;
-  padding: 130px 0;
+  padding: 50px 0;
   position: relative;
 }
 
 .about p {
-  color: #0F2C34;
+  color: #000000;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.6em;
   letter-spacing: -.3px;
 }
@@ -132,6 +152,14 @@ section {
   text-transform: uppercase;
 }
 
+.about h1 {
+  font-family: 'Montserrat';
+  font-size: 45px;
+  font-weight: 700;
+  margin: 20px 0;
+
+}
+
 /*
  * Info Section
  */
@@ -139,7 +167,7 @@ section {
 .info {
   background-color: #fff;
   margin-top: 15px;
-  padding: 100px 0;
+  padding: 50px 0;
   position: relative;
 }
 
@@ -169,14 +197,15 @@ section {
 .faq {
   background-color: #fff;
   margin-top: 15px;
-  padding: 100px 0;
+  padding: 50px 0;
   position: relative;
 }
 
 .faq h1 {
   font-family: 'Montserrat';
+  font-size: 45px;
   font-weight: 700;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .faq .question h2 {
@@ -231,6 +260,14 @@ section {
 
 .footer h3 a {
   color: #fff;
+}
+
+.footer a {
+  color: #ffffff;
+}
+
+.footer h1 {
+  font-weight: 600;
 }
 
 @media(max-width: 768px) {
