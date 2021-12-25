@@ -30,6 +30,11 @@
     color: white
   }
 
+  .s_about iframe {
+    height: 100vh;
+    width: 90vh;
+  }
+
 /* 
 *  Top Banner Section
 */
